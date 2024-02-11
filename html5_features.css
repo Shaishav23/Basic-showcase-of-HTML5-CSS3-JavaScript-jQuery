@@ -1,0 +1,42 @@
+/* Add styles for the blog section */
+.blog-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .blog-post {
+    width: calc(50% - 20px); /* Two columns with margin */
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-post h2 {
+    color: #333;
+  }
+  
+  .author {
+    font-style: italic;
+    margin-bottom: 5px;
+  }
+  
+  .date {
+    font-size: 0.8em;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #007BFF;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
